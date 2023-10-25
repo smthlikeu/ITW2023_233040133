@@ -1,0 +1,117 @@
+body {
+    font: 16px/20px Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    background-image: url(img/bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #1d0102;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 55px;
+    margin-left: -40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.header a:hover {
+    background-color: red;
+    color: white;
+}
+
+.hero {
+    height: 380px;
+    background-image: url(img/spdr.jpeg) ;
+    background-size: cover;
+    background-position: 0 -530px;
+    border-top: 5px solid blueviolet;
+    border-bottom: 5px solid rgb(138, 25, 25);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(138, 25, 25);
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.content h3 {
+    color: rgb(138, 25, 25);
+}
+
+.content h4 {
+    color: blueviolet;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sumber a {
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.sumber a:hover {
+    color: white;
+    background-color: red;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.vilain {
+    display: flex;
+    justify-content: center;
+}
+
+.suit {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+}
